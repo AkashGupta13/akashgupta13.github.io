@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,77,198,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+.location {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timezone {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.temperature {
+    font-size: 60px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.temperature-details {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summary {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.symbol {
+    font-size: 36px;
+    font-family: sans-serif;
+}
